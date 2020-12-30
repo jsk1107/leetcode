@@ -29,8 +29,6 @@ class Solution:
         return sum(nums[::2])
 
 
-
-
 if __name__ == '__main__':
     input_data = [1, 4, 3, 2]
 
