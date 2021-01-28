@@ -29,7 +29,7 @@ class Solution:
 
         p = 1
         for i in range(0, len(nums)):
-            result.append(p) # [1, a1, a1*a2, a1*a2*a3]
+            result.append(p)
             p *= nums[i]
 
         p = 1
