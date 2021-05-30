@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+# Author: jsk1107
+# platform: 프로그래머스
+
 def solution(n, times):
     answer = 0
 

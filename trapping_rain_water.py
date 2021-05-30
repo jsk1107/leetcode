@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Author: jsk1107
+# platform: LeetCode
 
 """
 Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
@@ -18,6 +19,7 @@ import sys
 import math
 import bisect
 from typing import *
+
 
 class Solution:
     def trap(self, height: List[int]) -> int:
@@ -40,7 +42,6 @@ class Solution:
             stack.append(i)
 
         return vol
-
 
 
 if __name__ == '__main__':

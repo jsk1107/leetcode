@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Author: jsk1107
+# platform: LeetCode
 
 """
 Given a positive integer num, write a function which returns True if num is a perfect square else False.
@@ -44,12 +45,10 @@ class Solution:
                 return True
         return False
 
+
 if __name__ == '__main__':
     num = 16
     solution = Solution()
     output = solution.isPerfectSquare(num)
     print(output)
 
-"""
-
-"""

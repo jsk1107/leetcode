@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Author: jsk1107
+# platform: LeetCode
 
 """
 Given a positive integer n, generate an n x n matrix filled with elements from 1 to n2 in spiral order.
@@ -58,6 +59,7 @@ class Solution:
             left += 1
 
         return res
+
 
 if __name__ == '__main__':
     n = 5

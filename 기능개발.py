@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# Author: jsk1107
+# platform: 프로그래머스
+
+
 def solution(progresses, speeds):
     answer = []
     stack = []
@@ -20,6 +25,7 @@ def solution(progresses, speeds):
         if num == cnt:
             break
     return answer
+
 
 progresses = [93, 30, 55]
 speeds = [1, 30, 5]

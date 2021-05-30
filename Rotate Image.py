@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Author: jsk1107
+# platform: LeetCode
 
 """
 You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise).
@@ -68,6 +69,7 @@ class Solution:
         lb = [n - 1 - cnt, cnt]
 
         return lt, rt, rb, lb
+
 
 if __name__ == '__main__':
     matrix = [[1,2,3],[4,5,6],[7,8,9]]

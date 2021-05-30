@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+# Author: jsk1107
+# platform: sw expert academy
+
 import sys
 from copy import deepcopy
 

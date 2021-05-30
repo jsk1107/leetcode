@@ -1,7 +1,8 @@
+# -*- coding: utf-8 -*-
+# Author: jsk1107
+# platform: 프로그래머스
+
 import math
-from itertools import permutations
-
-
 
 def solution(brown, yellow):
     n1 = math.sqrt(yellow)
@@ -25,6 +26,7 @@ def solution(brown, yellow):
         if (width * height) - yellow == brown:
             answer = [width, height]
             return answer
+
 
 brown = 8
 yellow = 1

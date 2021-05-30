@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Author: jsk1107
+# platform: LeetCode
 
 """
 Given an array nums of n integers where n > 1,

@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Author: jsk1107
+# platform: LeetCode
 
 """
 Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0?

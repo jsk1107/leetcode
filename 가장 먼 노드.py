@@ -1,4 +1,9 @@
+# -*- coding: utf-8 -*-
+# Author: jsk1107
+# platform: 프로그래머스
+
 from collections import deque, defaultdict
+
 
 def bfs(visited, graph):
 
@@ -22,6 +27,7 @@ def bfs(visited, graph):
             deq.append(e)
             visited[e-1][1] = visited[node-1][1] + 1
     return visited
+
 
 def create_graph(edge):
     graph = defaultdict(list)

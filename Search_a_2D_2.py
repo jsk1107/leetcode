@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Author: jsk1107
+# platform: LeetCode
 
 """
 Write an efficient algorithm that searches for a target value in an m x n integer matrix. The matrix has the following properties:
@@ -40,6 +41,7 @@ class Solution:
             else:
                 return True
         return False
+
 
 if __name__ == '__main__':
     matrix = [[1, 4, 7, 11, 15], [2, 5, 8, 12, 19], [3, 6, 9, 16, 22], [10, 13, 14, 17, 24],

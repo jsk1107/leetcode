@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# Author: jsk1107
+# platform: 프로그래머스
+
+
 def solution(participant, completion):
     answer = ''
 
@@ -13,5 +18,4 @@ def solution(participant, completion):
 participant = ["marina", "josipa", "nikola", "vinko", "filipa"]
 completion = ["josipa", "filipa", "marina", "nikola"]
 
-result = solution(participant, completion)
-print(result)
+print(solution(participant, completion))

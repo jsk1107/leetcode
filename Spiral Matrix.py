@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Author: jsk1107
+# platform: LeetCode
 
 """
 Given an m x n matrix, return all elements of the matrix in spiral order.
@@ -38,6 +39,7 @@ class Solution:
                     result.append(row.pop(0))
 
         return result
+
 
 if __name__ == '__main__':
     matrix = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]
