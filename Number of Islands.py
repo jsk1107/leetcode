@@ -47,10 +47,10 @@ class Solution:
             return
 
         grid[row][col] = '#'
-        self.dfs(grid, row+1, col)
-        self.dfs(grid, row, col+1)
-        self.dfs(grid, row-1, col)
-        self.dfs(grid, row, col-1)
+        self.dfs(grid, row+1, col) # 아래
+        self.dfs(grid, row, col+1) # 오른쪽
+        self.dfs(grid, row-1, col) # 왼쪽
+        self.dfs(grid, row, col-1) # 위쪽
 
 
 if __name__ == '__main__':
